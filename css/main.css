@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+    font-family: 'Story Book';
+    src: url('StoryBook-webfont.eot');
+    src: url('StoryBook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('StoryBook-webfont.woff2') format('woff2'),
+         url('StoryBook-webfont.woff') format('woff'),
+         url('StoryBook-webfont.ttf') format('truetype'),
+         url('StoryBook-webfont.svg#story_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KGTenThousandReasons';
+    src: url('KGTenThousandReasons-webfont.eot');
+    src: url('KGTenThousandReasons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('KGTenThousandReasons-webfont.woff2') format('woff2'),
+         url('KGTenThousandReasons-webfont.woff') format('woff'),
+         url('KGTenThousandReasons-webfont.ttf') format('truetype'),
+         url('KGTenThousandReasons-webfont.svg#kg_ten_thousand_reasonsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*My styles*/
+html {
+	min-width: 960px;
+}
+
+.header	{
+	width: 100%;
+	height: 200px;
+	background: #E68A00;
+}
+.mainmenu{
+	position: relative;
+     overflow:hidden;
+     height:30px;
+     margin:-15px 0
+}
+#objectives{
+	 list-style:none;
+	 margin: 0;
+	 padding: 0;
+	 position: relative;
+	 left: 50%;
+	 float: left;
+	 font-family: 'Story Book', 'Times New Roman', arial, verdana, sans-serif;
+	 font-size: 20pt;
+}
+
+#objectives li {
+	 position: relative;
+	 left: -50%;
+	 float: left;
+	 margin: 0 15px;
+
+}
+
+#objectives li a{
+	display: block;
+	text-decoration: none;
+	color:black;
+}
+
+#objectives li a:hover {
+	color:#ffffff
+}
+
+.header h1 {
+	padding: 55px; 
+	font-family: 'Story Book', 'Times New Roman', arial, verdana, sans-serif;
+	font-size: 40pt;
+	text-align: center;
+}
+
+.main {
+	width: 80%;
+	margin: 0 auto;
+	background: #81807C;
+	/*outline: 1px solid blue;*/
+	min-height: 1000px;
+}
+.tabs {
+    overflow: hidden;
+    display:inline-block;
+    width: 20%;
+    float:left;
+    position:relative;
+    /*outline: 2px solid magenta;*/
+}
+
+.tab{
+	
+	margin-top: 40px; 
+}
+
+.tab p {
+	font-family: 'KGTenThousandReasons', arial, verdana, sans-serif;
+	font-size: 15pt;
+	margin: 0px 0 0px 30px;
+	display: inline-block;
+	padding-bottom: 50px;
+	vertical-align: -webkit-baseline-middle;
+	cursor: pointer;
+}
+
+.tab.active {
+    color:#ffffff
+}
+
+.containers{
+    display:inline-block;
+    width:80%;
+  /* outline: 2px solid green; */
+}
+
+.container{
+	display:none;
+	/*outline: 2px solid blue;*/
+	font-family: arial, verdana, sans-serif;
+	-webkit-text-stroke: 1px black;
+	font-size: 15pt;
+
+}
+.container.active{
+	display: block;
+}
+
+.container > h2 {
+	font-family: 'KGTenThousandReasons', arial, verdana, sans-serif;
+	text-align: center;
+	font-size: 25pt;
+	color:#E68A00;
+	margin: 10px;
+}
+.container>p{
+	text-indent: 15px;
+	text-align: justify;
+	line-height: 1.5em;
+	margin: 0 20px 1em 15px;	
+}
+#maxymiser:after{
+	clear: both;
+	content: '';
+	display: block;
+}
