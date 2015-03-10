@@ -120,9 +120,8 @@ html {
 .main {
 	width: 80%;
 	margin: 0 auto;
-	background: #81807C;
-	/*outline: 1px solid blue;*/
-	min-height: 1000px;
+	background: #5C5B58;
+	min-height: 1500px;
 }
 .tabs {
     overflow: hidden;
@@ -130,20 +129,21 @@ html {
     width: 20%;
     float:left;
     position:relative;
-    /*outline: 2px solid magenta;*/
 }
 
 .tab{
 	
-	margin-top: 40px; 
+	margin-top: 70px; 
+}
+.tab img{
+	vertical-align: middle;
 }
 
 .tab p {
 	font-family: 'KGTenThousandReasons', arial, verdana, sans-serif;
-	font-size: 15pt;
-	margin: 0px 0 0px 30px;
+	font-size: 12pt;
+	margin: 0px 0 0px 5px;
 	display: inline-block;
-	padding-bottom: 50px;
 	vertical-align: -webkit-baseline-middle;
 	cursor: pointer;
 }
@@ -155,28 +155,35 @@ html {
 .containers{
     display:inline-block;
     width:80%;
-  /* outline: 2px solid green; */
 }
 
 .container{
 	display:none;
-	/*outline: 2px solid blue;*/
 	font-family: arial, verdana, sans-serif;
 	-webkit-text-stroke: 1px black;
-	font-size: 15pt;
+	font-size: 14pt;
 
 }
 .container.active{
 	display: block;
 }
 
-.container > h2 {
+.container > a{
+	display: block;
+	text-decoration: none;
 	font-family: 'KGTenThousandReasons', arial, verdana, sans-serif;
 	text-align: center;
 	font-size: 25pt;
 	color:#E68A00;
 	margin: 10px;
+	-webkit-text-stroke: 1px black;
+	text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
+
 .container>p{
 	text-indent: 15px;
 	text-align: justify;

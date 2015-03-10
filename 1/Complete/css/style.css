@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*My styles*/
+
+*{
+	margin:0;
+	padding:0;  
+}
+.taglist{
+	width: 80%;
+	margin: 5% auto;
+	padding: 38px 0;
+}
+
+.taglist #edit{
+	text-decoration: none;
+	width: 160px;
+	height: 29px;
+	margin-left: 46%;
+	font-family: 'Times New Roman', arial, verdana, sans-serif;
+	color: #FFFFFF;
+	font-size: 20pt;
+	text-align: center;
+	border: 4px solid#330000;
+	border-radius: 20px;
+	background: #660000;
+	margin-bottom: 20px;
+}
+
+.taglist #edit:hover{
+	color:#330000;
+	background: #FFAD5C;
+	border: 4px solid#330000;
+	border-radius: 20px;
+}
+
+.tagholder{
+	margin-top: 21px;
+	font-size: 18px;
+	width: 90%;
+	margin: 0 5%;
+	background: #E6E6B8;
+}
+
+.tag{
+	background: #94FF70;
+	color: #006B24;
+	display: inline-block;
+	border: 1px solid #5CBD7D;
+	margin-right: 20px;
+	border-radius: 5px;
+	font-family: 'Times New Roman', arial, verdana, sans-serif
+}
+.tag:hover{
+	background: #E6E65C;
+}
+
+.tag .name{
+	padding: 10px;
+	float:left;
+}
+
+.tag .close{
+	padding: 10px;
+	border-left: 2px solid #5CBD7D;
+	float: left;
+}
+
+form{
+	margin-top: 20px;
+	margin-left: 39%;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.taglist input[type="text"] {
+	background-color: #E6E6B8;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	width: 350px;
+	color: #b2b2b2;
+	padding: 0px 15px;
+}
+
+.taglist button{
+	color: white;
+	background: #006600;
+	border: none;
+	height: 32px;
+}
+
+.taglist .add{
+	margin-left: -40px;	
+	width: 60px;
+}
+
+.taglist .removeAll{
+	width: 110px;
+	border-left: 1px solid #000000;
+}
+
+.taglist .tagholder .tag .close:hover{
+	cursor: pointer;
+}
+.taglist .tagholder .tag :after{
+	content: '';
+	display: block;
+	clear: both;
+}

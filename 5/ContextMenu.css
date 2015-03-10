@@ -1,0 +1,37 @@
+ul {
+	border: 3px solid black;
+	border-radius: 20%;
+
+}
+.context-menu{
+	display: none;
+	position: absolute;
+	margin: 0;
+	list-style: none;
+	background: #E2FFAA;
+	padding: 20px;
+}
+.context-menu li:{
+	cursor: help;
+	margin-bottom: 5px;	
+}
+.context-menu li:hover{
+	background:#FF6600;
+}
+.context-menu-has-sumenu li:hover{
+	background:#5CAF78;
+}
+.context-menu-has-sumenu {
+	padding-right: 16px;
+}
+.context-menu-has-sumenu > span {
+	position: absolute;
+	font-size: 17px;
+
+}
+.context-menu-has-sumenu > ul {
+	position: absolute;
+	float: left;
+	left: 65%;
+	width: 130px;
+}
