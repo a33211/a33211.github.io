@@ -121,7 +121,9 @@ html {
 	width: 80%;
 	margin: 0 auto;
 	background: #5C5B58;
-	min-height: 1500px;
+	min-height: 1400px;
+	background-repeat: no-repeat;
+	overflow: auto;
 }
 .tabs {
     overflow: hidden;
@@ -151,7 +153,9 @@ html {
 .tab.active {
     color:#ffffff
 }
-
+.tab:hover{
+	color:yellow;
+}
 .containers{
     display:inline-block;
     width:80%;
@@ -159,9 +163,8 @@ html {
 
 .container{
 	display:none;
-	font-family: arial, verdana, sans-serif;
-	-webkit-text-stroke: 1px black;
-	font-size: 14pt;
+	font-family: 'Times New Roman', arial, verdana, sans-serif;
+	font-size: 24pt;
 
 }
 .container.active{
@@ -189,6 +192,11 @@ html {
 	text-align: justify;
 	line-height: 1.5em;
 	margin: 0 20px 1em 15px;	
+}
+
+.container > img{
+	display: block;
+	overflow: auto;
 }
 #maxymiser:after{
 	clear: both;
