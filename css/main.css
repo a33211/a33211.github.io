@@ -43,24 +43,24 @@ table {
 }
 @font-face {
     font-family: 'Story Book';
-    src: url('StoryBook-webfont.eot');
-    src: url('StoryBook-webfont.eot?#iefix') format('embedded-opentype'),
-         url('StoryBook-webfont.woff2') format('woff2'),
-         url('StoryBook-webfont.woff') format('woff'),
-         url('StoryBook-webfont.ttf') format('truetype'),
-         url('StoryBook-webfont.svg#story_bookregular') format('svg');
+    src: url('../fonts/StoryBook-webfont.eot');
+    src: url('../fonts/StoryBook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/StoryBook-webfont.woff2') format('woff2'),
+         url('../fonts/StoryBook-webfont.woff') format('woff'),
+         url('../fonts/StoryBook-webfont.ttf') format('truetype'),
+         url('../fonts/StoryBook-webfont.svg#story_bookregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'KGTenThousandReasons';
-    src: url('KGTenThousandReasons-webfont.eot');
-    src: url('KGTenThousandReasons-webfont.eot?#iefix') format('embedded-opentype'),
-         url('KGTenThousandReasons-webfont.woff2') format('woff2'),
-         url('KGTenThousandReasons-webfont.woff') format('woff'),
-         url('KGTenThousandReasons-webfont.ttf') format('truetype'),
-         url('KGTenThousandReasons-webfont.svg#kg_ten_thousand_reasonsRg') format('svg');
+    src: url('../fonts/KGTenThousandReasons-webfont.eot');
+    src: url('../fonts/KGTenThousandReasons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/KGTenThousandReasons-webfont.woff2') format('woff2'),
+         url('../fonts/KGTenThousandReasons-webfont.woff') format('woff'),
+         url('../fonts/KGTenThousandReasons-webfont.ttf') format('truetype'),
+         url('../fonts/KGTenThousandReasons-webfont.svg#kg_ten_thousand_reasonsRg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
