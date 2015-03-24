@@ -203,3 +203,10 @@ html {
 	content: '';
 	display: block;
 }
+#self h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	color: rgb(240, 222, 34);
+	margin: 50px auto;
+
+}
