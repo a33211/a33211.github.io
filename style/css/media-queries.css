@@ -1,0 +1,135 @@
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+	
+	.header,
+	.wrapper,
+	.site-generator {
+		width:960px;
+	}
+	
+	
+	.content {
+		width: 640px;
+	}
+	
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	.header,
+	.wrapper,
+	
+	.content {
+		width: 470px;
+	}
+	
+	.sidebar {
+		width: 220px;
+	}
+	
+
+	}/* END Smaller than standard 960 (devices and browsers) */
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.header,
+		.wrapper,
+		.content,
+		.sidebar  {
+			width: 440px;
+		}
+		
+		
+		.content {
+			float: none;
+		}
+		
+		.sidebar {
+			clear: both;
+			margin: 30px 0 0 0 !important;
+			float: none;
+		}
+		
+		.logo {
+			float: none;
+			text-align: center;
+		}
+		
+		.logo img {
+			display: inline;
+		}
+		
+		ul#tiny {
+			display: none;
+		}
+		
+		#menu-wrapper .menu {
+			float: none;
+		}
+
+		.selectnav {
+			display: block;
+			float: none;
+		}
+		
+		
+		.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .one-sixth {
+			float: none;
+			margin: 0 0 20px 0;
+			width: 100%;
+		}
+
+		}/* END Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+		/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+		@media only screen and (max-width: 479px) {
+
+			
+			.header,
+			.wrapper,
+			.content,
+			.sidebar   {
+				width: 280px;
+			}
+			
+			
+			.content {
+				float: none;
+			}
+			
+			.sidebar {
+				clear: both;
+				margin: 30px 0 0 0 !important;
+				float: none;
+			}
+			
+			.logo {
+				float: none;
+				text-align: center;
+			}
+			
+			.logo img {
+				display: inline;
+			}
+			
+			ul#tiny {
+				display: none;
+			}
+			
+			#menu-wrapper .menu {
+				float: none;
+			}
+
+			
+			.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .one-sixth {
+				float: none;
+				margin: 0 0 20px 0;
+				width: 100%;
+			}
+
+}/* END Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
