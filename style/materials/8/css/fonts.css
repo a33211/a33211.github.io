@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'santa_fe_let_plainregular';
+    src: url('../fonts/santafeletplain.eot');
+    src: url('../fonts/santafeletplain.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/santafeletplain.woff2') format('woff2'),
+         url('../fonts/santafeletplain.woff') format('woff'),
+         url('../fonts/santafeletplain.ttf') format('truetype'),
+         url('../fonts/santafeletplain.svg#santa_fe_let_plainregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
