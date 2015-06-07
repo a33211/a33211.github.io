@@ -3,34 +3,6 @@
 	{
 		"selected_items":
 		[
-			[
-				"ta",
-				"ta-c	text-align: center;"
-			],
-			[
-				"border",
-				"border-radius"
-			],
-			[
-				"col",
-				"column"
-			],
-			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"h",
-				"height"
-			]
 		]
 	},
 	"buffers":
@@ -39,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6334,
+				"buffer_size": 6094,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +19,23 @@
 			"file": "css/common.css",
 			"settings":
 			{
-				"buffer_size": 24335,
+				"buffer_size": 14430,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/fonts.css",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/grid.css",
+			"settings":
+			{
+				"buffer_size": 694,
 				"line_ending": "Windows"
 			}
 		}
@@ -55,24 +43,28 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 242.0,
 		"selected_items":
 		[
 			[
-				"rei",
+				"reind",
 				"Indentation: Reindent Lines"
 			],
 			[
-				"pac",
-				"Package Control: List Packages"
+				"rein",
+				"Indentation: Reindent Lines"
 			],
 			[
-				"cont",
-				"Package Control: Discover Packages"
+				"forma",
+				"Format: Javascript"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
+				"Snippet: ",
+				"Snippet: Anonymous Function"
+			],
+			[
+				"limterL",
+				"Preferences: SublimeLinter Settings – Default"
 			],
 			[
 				"pack lis",
@@ -85,10 +77,6 @@
 			[
 				"pack ins",
 				"Package Control: Install Package"
-			],
-			[
-				"forma",
-				"Format: Javascript"
 			],
 			[
 				"pack in",
@@ -106,6 +94,8 @@
 		"height": 126.0,
 		"history":
 		[
+			"# Windows",
+			"npm install -g jshint",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
@@ -120,6 +110,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/noskov.alexey/Desktop/03.js",
+		"/D/SublimeText3/SublimeText3/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/D/SublimeText3/SublimeText3/Data/Packages/User/Plain text.sublime-settings",
 		"/C/Users/user/Downloads/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
 		"/C/Users/user/Downloads/SublimeText3/Data/Packages/User/js-snippets/console.log.sublime-snippet",
 		"/C/Users/user/Downloads/SublimeText3/Data/Packages/User/js-snippets/console.info.sublime-snippet",
@@ -129,14 +122,13 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -144,9 +136,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"outline",
+			"	float: right;",
 			"nav",
-			"submit",
-			"form"
+			"font-size: 13px;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -173,15 +166,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6334,
+						"buffer_size": 6094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1313,
-								1315
+								1524,
+								1524
 							]
 						],
 						"settings":
@@ -294,10 +287,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2685.0,
+						"translation.y": 349.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -312,15 +305,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24335,
+						"buffer_size": 14430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10500,
-								10500
+								1192,
+								1192
 							]
 						],
 						"settings":
@@ -438,6 +431,167 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/fonts.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/grid.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
 				}
 			]
 		}
@@ -470,7 +624,7 @@
 		"cols":
 		[
 			0.0,
-			0.507189542484,
+			0.340522875817,
 			1.0
 		],
 		"rows":
@@ -484,12 +638,12 @@
 	{
 		"height": 0.0
 	},
-	"project": "8.sublime-project",
+	"project": "10.sublime-project",
 	"replace":
 	{
 		"height": 42.0
 	},
-	"save_all_on_build": true,
+	"save_all_on_build": false,
 	"select_file":
 	{
 		"height": 0.0,
